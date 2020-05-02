@@ -1,6 +1,6 @@
-ARG RELEASE=devel
-FROM bioconductor/bioconductor_docker:${RELEASE}
+FROM docker pull markrobinsonuzh/renku:r4.0.0_bioc
 LABEL maintainer="Swiss Data Science Center <info@datascience.ch>"
+LABEL maintainer="Mark Robinson <mark.robinson@mls.uzh.ch>"
 
 USER root
 
