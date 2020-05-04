@@ -1,6 +1,6 @@
 # build with:
 # docker build -t markrobinsonuzh/renku:r4.0.0_bioc_renku https://github.com/markrobinsonuzh/renkulab-docker.git\#:docker/bioc
-FROM markrobinsonuzh/renku:r4.0.0_bioc
+FROM markrobinsonuzh/renku:r4.0.0-ubuntu18.04_bioc
 LABEL maintainer="Swiss Data Science Center <info@datascience.ch>"
 LABEL maintainer="Mark Robinson <mark.robinson@mls.uzh.ch>"
 
